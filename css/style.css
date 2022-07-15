@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Stick', sans-serif;
+}
+section{
+width: 100%;
+height: 100vh;
+background-color:#747474;;
+}
+nav{
+width: 100%;
+height: 5rem;
+background-color: rgb(197, 0, 0);
+display: flex;
+justify-content: space-between;
+padding: 0 5rem 0 5rem;
+align-items: center;
+}
+.container-logo{
+width: 25rem;
+list-style: none;
+}
+.logo{
+width: 12rem;
+}
+.container-options-nav{
+width: 45rem;
+display: flex;
+list-style: none;
+justify-content: space-between;
+font-size: 20px;
+font-weight: 800;
+}
+.options-nav{
+text-decoration: none;
+color: #ffffff;
+}
+.options-nav:hover{
+transition: .4s;
+text-decoration: underline #ffffff;
+}
+.background-image{
+background-image: url(../img/textiles-peru.jpeg);
+width: 100%;
+height: 89%;
+}
+.container-text-home{
+width: 100%;
+height: 100%;
+padding: 0 5rem 0 5rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 5px;
+}
+h1{
+font-size: 7rem;
+font-weight: 900;
+color: #ffffff;
+text-shadow: 2px 2px 2px #000000b2;
+}
+.text-description{
+font-weight: 400;
+color: #ffffff;
+text-shadow: 2px 2px 2px #000000b2;
+font-size: 30px;
+}
+.container-button-home{
+background-color: rgb(255, 0, 0);
+height: 2rem;
+width: 8rem;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 15px;
+}
+.container-button-home:hover{
+transition: .3s;
+background-color: rgb(179, 0, 0);
+box-shadow: 2px 2px 5px #000000;
+}
+.text-button-home{
+color: #ffffff;
+text-decoration: none;
+font-weight: 400;
+text-align: center;
+}
+#angle-down{
+color: #ffffff;
+font-size: 35px;
+text-shadow: 2px 2px 5px #000000;
+}
+#angle-down:hover{
+text-shadow: 2px 2px 5px #ffffff;
+}
+
+
+#history{
+padding: 3rem 5rem 0 5rem;
+background-image: url(../img/textiles-peru-interior_637708488237060422.jpeg);
+background-size: 100% 100vh;
+background-repeat: no-repeat;
+}
+#textiles{
+background-image: url(../img/paratextileria.jpeg);
+padding: 3rem 5rem 0 5rem;
+background-size: 100% 100vh;
+background-repeat: no-repeat;
+}
+#tocapus{
+background-image: url(../img/Arte-textil-Lima-2.webp);
+padding: 3rem 5rem 0 5rem;
+background-size: 100% 100vh;
+background-repeat: no-repeat;
+}
+.container-title-section{
+width: 100%;
+justify-content: center;
+display: flex;
+align-items: center;
+}
+h3{
+font-weight: 800;
+font-size: 55px;
+color: #ffffff;
+text-shadow: 2px 2px 8px #000000;
+}
+.container-section{
+display: flex;
+justify-content: space-between;
+}
+.container-text-section{
+width: 40rem;
+margin: auto
+}
+.text-section{
+line-height: 1.4;
+color: #ffffff;
+font-size: 24px;
+text-align: justify;
+text-shadow: 2px 2px 5px #000000;
+}
+.image-history{
+margin: 2rem 0 0 0;
+width: 30rem;
+height: 25rem;
+}
+.separator{
+margin-top: 5rem;
+height: 3px;
+width: 100%;
+background-color: #ffffff;
+}
+.container-cards{
+background-color: #646464;
+height: 20rem;
+width: 100%;
+padding: 0 5rem 0 5rem;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.card{
+border-radius: 15px;
+justify-content: center;
+display: flex;
+align-items: center;
+flex-direction: column;
+height: 15rem;
+width: 68rem;
+color: #ffffff;
+text-align: center;
+}
+.separator-card{
+margin: 1rem 0 0 0;
+width: 55rem;
+background-color: #ffffff;
+}
+h5{
+font-size: 25px;
+}
+.card p{
+margin-top: 1rem;
+}
+#tocapus{
+background-color: #646464;
+}
+.container-cards-tocapus{
+margin-top: 5rem;
+width: 100%;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.card-tocapus{
+height: 30rem;
+width: 28rem;
+background-color: #4e4e4e;
+color: #ffffff;
+border: solid #ffffff;
+border-radius: 15px;
+box-shadow: 2px 2px 5px #ffffff;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 10px 12px 0 12px;
+}
+.card-tocapus p{
+text-align: justify;
+}
+h6{
+text-align: center;
+font-size: 25px;
+margin-bottom: 10px;
+}
+
+.container-cards-information{
+background-color: #3b3b3b;
+height: 28rem;
+width: 100%;
+padding: 0 5rem 0 5rem;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.container-cards-information .card{
+background-color: #4e4e4e;
+border-radius: 15px;
+justify-content: center;
+display: flex;
+align-items: center;
+flex-direction: column;
+padding: 0 20px 0 20px;
+height: 24rem;
+width: 35rem;
+color: #ffffff;
+border: solid #ffffff;
+box-shadow: 2px 2px 5px #ffffff;
+}
+.container-cards-information .separator-card{
+width: 8rem;
+background-color: #ffffff;
+}
+.container-cards-information h5{
+font-size: 25px;
+}
+.container-cards-information .card p{
+margin-top: 1rem;
+font-size: 15px;
+align-items: center;
+text-align: justify;
+}
+
+footer{
+width: 100%;
+height: 8rem;
+background-color: #292929;
+}
+.line{
+width: 100%;
+height: 1rem;
+background-color: #ffffff;
+}
+.container-footer{
+width: 100%;
+height: 6rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container-footer p{
+color: #ffffff;
+font-size: 25px;
+}
